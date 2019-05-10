@@ -1,0 +1,31 @@
+{
+  "name": "serverless-sqs-plugin-alarms",
+  "version": "1.0.1",
+  "description": "Serverless plugin to to configure CloudWatch alarms for SQS queues",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KyleRuan <kyleryk123@gmail.com>",
+  "license": "MIT",
+  "standard": {
+    "envs": [
+      "node",
+      "jest"
+    ],
+    "ignore": [
+      "node_modules/",
+      "coverage"
+    ]
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "coveralls": "^2.13.0",
+    "dot-json": "^1.0.3",
+    "jest": "^19.0.2",
+    "snazzy": "^6.0.0",
+    "standard": "^9.0.2"
+  }
+}
