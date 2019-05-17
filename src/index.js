@@ -82,7 +82,7 @@ class Alarm {
         }
 
         if (this.name) {
-          config[this.formatAlarmName(properties.value)].Properties.AlarmName = util.format('%s-%s-%s-%d', this.name, this.queue, this.metricName, properties.value)
+          config[this.formatAlarmName(properties.value)].Properties.AlarmName = util.format('%s-%s-%s-%d', this.name, this.queue, this.metricName || DEFAULT_METRIC_NAME, properties.value)
         }
 
         if (this.treatMissingData) {
